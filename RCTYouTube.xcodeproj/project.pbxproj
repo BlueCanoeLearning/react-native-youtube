@@ -7,13 +7,143 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0389D996238EF75500EE3084 /* RCTYouTubeStandalone.m in Sources */ = {isa = PBXBuildFile; fileRef = 53462DDE1F1FDBB6001DCD44 /* RCTYouTubeStandalone.m */; };
+		0389D997238EF75500EE3084 /* RCTYouTubeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B26A91A1B428AA2000C2690 /* RCTYouTubeManager.m */; };
+		0389D998238EF75500EE3084 /* RCTYouTube.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B26A9181B428AA2000C2690 /* RCTYouTube.m */; };
+		0389D9D3238EF86700EE3084 /* libcxxreact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0389D9BB238EF84300EE3084 /* libcxxreact.a */; };
+		0389D9D4238EF86700EE3084 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0389D9B3238EF84300EE3084 /* libReact.a */; };
+		0389D9D7238EFA9400EE3084 /* WKYTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0389D9D6238EFA9300EE3084 /* WKYTPlayerView.m */; };
+		0389D9D8238EFA9400EE3084 /* WKYTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0389D9D6238EFA9300EE3084 /* WKYTPlayerView.m */; };
 		53462DDF1F1FDBB6001DCD44 /* RCTYouTubeStandalone.m in Sources */ = {isa = PBXBuildFile; fileRef = 53462DDE1F1FDBB6001DCD44 /* RCTYouTubeStandalone.m */; };
-		8B26A9141B428A53000C2690 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B26A9131B428A53000C2690 /* YTPlayerView.m */; };
 		8B26A91B1B428AA2000C2690 /* RCTYouTube.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B26A9181B428AA2000C2690 /* RCTYouTube.m */; };
 		8B26A91C1B428AA2000C2690 /* RCTYouTubeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B26A91A1B428AA2000C2690 /* RCTYouTubeManager.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0389D9B2238EF84300EE3084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0389D99F238EF84300EE3084 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		0389D9B4238EF84300EE3084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0389D99F238EF84300EE3084 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
+			remoteInfo = "React-tvOS";
+		};
+		0389D9B6238EF84300EE3084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0389D99F238EF84300EE3084 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
+			remoteInfo = yoga;
+		};
+		0389D9B8238EF84300EE3084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0389D99F238EF84300EE3084 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
+			remoteInfo = "yoga-tvOS";
+		};
+		0389D9BA238EF84300EE3084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0389D99F238EF84300EE3084 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
+			remoteInfo = cxxreact;
+		};
+		0389D9BC238EF84300EE3084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0389D99F238EF84300EE3084 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
+			remoteInfo = "cxxreact-tvOS";
+		};
+		0389D9BE238EF84300EE3084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0389D99F238EF84300EE3084 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BDC1FC498900052F4D5;
+			remoteInfo = jsinspector;
+		};
+		0389D9C0238EF84300EE3084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0389D99F238EF84300EE3084 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BFA1FC4989A0052F4D5;
+			remoteInfo = "jsinspector-tvOS";
+		};
+		0389D9C2238EF84300EE3084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0389D99F238EF84300EE3084 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7ECE1E25DB7D00323FB7;
+			remoteInfo = "third-party";
+		};
+		0389D9C4238EF84300EE3084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0389D99F238EF84300EE3084 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D3C1EBD27B6005632C8;
+			remoteInfo = "third-party-tvOS";
+		};
+		0389D9C6238EF84300EE3084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0389D99F238EF84300EE3084 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7E881E25C6D100323FB7;
+			remoteInfo = "double-conversion";
+		};
+		0389D9C8238EF84300EE3084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0389D99F238EF84300EE3084 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
+			remoteInfo = "double-conversion-tvOS";
+		};
+		0389D9CA238EF84300EE3084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0389D99F238EF84300EE3084 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC6D6214B3E7000DD5AC8;
+			remoteInfo = jsi;
+		};
+		0389D9CC238EF84300EE3084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0389D99F238EF84300EE3084 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC73B214B45A300DD5AC8;
+			remoteInfo = jsiexecutor;
+		};
+		0389D9CE238EF84300EE3084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0389D99F238EF84300EE3084 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FB6214C9A0900B7C4FE;
+			remoteInfo = "jsi-tvOS";
+		};
+		0389D9D0238EF84300EE3084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0389D99F238EF84300EE3084 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FEE214C9CF800B7C4FE;
+			remoteInfo = "jsiexecutor-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
+		0389D99A238EF75500EE3084 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BDB9BC71B4289AE00EF9FEF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -26,10 +156,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0389D99E238EF75500EE3084 /* libRCTYouTubeTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTYouTubeTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0389D99F238EF84300EE3084 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "node_modules/react-native/React/React.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		0389D9D5238EFA9300EE3084 /* WKYTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKYTPlayerView.h; sourceTree = SOURCE_ROOT; };
+		0389D9D6238EFA9300EE3084 /* WKYTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKYTPlayerView.m; sourceTree = SOURCE_ROOT; };
 		53462DDD1F1FDBB6001DCD44 /* RCTYouTubeStandalone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTYouTubeStandalone.h; sourceTree = SOURCE_ROOT; };
 		53462DDE1F1FDBB6001DCD44 /* RCTYouTubeStandalone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTYouTubeStandalone.m; sourceTree = SOURCE_ROOT; };
-		8B26A9121B428A53000C2690 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YTPlayerView.h; path = YTPlayerView/YTPlayerView.h; sourceTree = SOURCE_ROOT; };
-		8B26A9131B428A53000C2690 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YTPlayerView.m; path = YTPlayerView/YTPlayerView.m; sourceTree = SOURCE_ROOT; };
 		8B26A9171B428AA2000C2690 /* RCTYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTYouTube.h; sourceTree = SOURCE_ROOT; };
 		8B26A9181B428AA2000C2690 /* RCTYouTube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTYouTube.m; sourceTree = SOURCE_ROOT; };
 		8B26A9191B428AA2000C2690 /* RCTYouTubeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTYouTubeManager.h; sourceTree = SOURCE_ROOT; };
@@ -38,6 +170,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0389D999238EF75500EE3084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0389D9D3238EF86700EE3084 /* libcxxreact.a in Frameworks */,
+				0389D9D4238EF86700EE3084 /* libReact.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BDB9BC61B4289AE00EF9FEF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -48,13 +189,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8B26A9151B428A59000C2690 /* YTPlayerView */ = {
+		0389D993238EF73600EE3084 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				8B26A9121B428A53000C2690 /* YTPlayerView.h */,
-				8B26A9131B428A53000C2690 /* YTPlayerView.m */,
+				0389D99F238EF84300EE3084 /* React.xcodeproj */,
 			);
-			name = YTPlayerView;
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		0389D9A0238EF84300EE3084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0389D9B3238EF84300EE3084 /* libReact.a */,
+				0389D9B5238EF84300EE3084 /* libReact.a */,
+				0389D9B7238EF84300EE3084 /* libyoga.a */,
+				0389D9B9238EF84300EE3084 /* libyoga.a */,
+				0389D9BB238EF84300EE3084 /* libcxxreact.a */,
+				0389D9BD238EF84300EE3084 /* libcxxreact.a */,
+				0389D9BF238EF84300EE3084 /* libjsinspector.a */,
+				0389D9C1238EF84300EE3084 /* libjsinspector-tvOS.a */,
+				0389D9C3238EF84300EE3084 /* libthird-party.a */,
+				0389D9C5238EF84300EE3084 /* libthird-party.a */,
+				0389D9C7238EF84300EE3084 /* libdouble-conversion.a */,
+				0389D9C9238EF84300EE3084 /* libdouble-conversion.a */,
+				0389D9CB238EF84300EE3084 /* libjsi.a */,
+				0389D9CD238EF84300EE3084 /* libjsiexecutor.a */,
+				0389D9CF238EF84300EE3084 /* libjsi-tvOS.a */,
+				0389D9D1238EF84300EE3084 /* libjsiexecutor-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0389D9D2238EF86700EE3084 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8BDB9BC01B4289AE00EF9FEF = {
@@ -62,6 +232,7 @@
 			children = (
 				8BDB9BCB1B4289AE00EF9FEF /* RCTYouTube */,
 				8BDB9BCA1B4289AE00EF9FEF /* Products */,
+				0389D9D2238EF86700EE3084 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				8BDB9BC91B4289AE00EF9FEF /* libRCTYouTube.a */,
+				0389D99E238EF75500EE3084 /* libRCTYouTubeTest.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,9 +248,11 @@
 		8BDB9BCB1B4289AE00EF9FEF /* RCTYouTube */ = {
 			isa = PBXGroup;
 			children = (
+				0389D9D5238EFA9300EE3084 /* WKYTPlayerView.h */,
+				0389D9D6238EFA9300EE3084 /* WKYTPlayerView.m */,
+				0389D993238EF73600EE3084 /* Libraries */,
 				53462DDD1F1FDBB6001DCD44 /* RCTYouTubeStandalone.h */,
 				53462DDE1F1FDBB6001DCD44 /* RCTYouTubeStandalone.m */,
-				8B26A9151B428A59000C2690 /* YTPlayerView */,
 				8B26A9171B428AA2000C2690 /* RCTYouTube.h */,
 				8B26A9181B428AA2000C2690 /* RCTYouTube.m */,
 				8B26A9191B428AA2000C2690 /* RCTYouTubeManager.h */,
@@ -90,6 +264,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0389D994238EF75500EE3084 /* RCTYouTubeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0389D99B238EF75500EE3084 /* Build configuration list for PBXNativeTarget "RCTYouTubeTest" */;
+			buildPhases = (
+				0389D995238EF75500EE3084 /* Sources */,
+				0389D999238EF75500EE3084 /* Frameworks */,
+				0389D99A238EF75500EE3084 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTYouTubeTest;
+			productName = RCTYouTube;
+			productReference = 0389D99E238EF75500EE3084 /* libRCTYouTubeTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		8BDB9BC81B4289AE00EF9FEF /* RCTYouTube */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BDB9BDD1B4289AE00EF9FEF /* Build configuration list for PBXNativeTarget "RCTYouTube" */;
@@ -126,26 +317,160 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 8BDB9BC01B4289AE00EF9FEF;
 			productRefGroup = 8BDB9BCA1B4289AE00EF9FEF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0389D9A0238EF84300EE3084 /* Products */;
+					ProjectRef = 0389D99F238EF84300EE3084 /* React.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8BDB9BC81B4289AE00EF9FEF /* RCTYouTube */,
+				0389D994238EF75500EE3084 /* RCTYouTubeTest */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		0389D9B3238EF84300EE3084 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 0389D9B2238EF84300EE3084 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0389D9B5238EF84300EE3084 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 0389D9B4238EF84300EE3084 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0389D9B7238EF84300EE3084 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = 0389D9B6238EF84300EE3084 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0389D9B9238EF84300EE3084 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = 0389D9B8238EF84300EE3084 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0389D9BB238EF84300EE3084 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = 0389D9BA238EF84300EE3084 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0389D9BD238EF84300EE3084 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = 0389D9BC238EF84300EE3084 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0389D9BF238EF84300EE3084 /* libjsinspector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsinspector.a;
+			remoteRef = 0389D9BE238EF84300EE3084 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0389D9C1238EF84300EE3084 /* libjsinspector-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsinspector-tvOS.a";
+			remoteRef = 0389D9C0238EF84300EE3084 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0389D9C3238EF84300EE3084 /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = 0389D9C2238EF84300EE3084 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0389D9C5238EF84300EE3084 /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = 0389D9C4238EF84300EE3084 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0389D9C7238EF84300EE3084 /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = 0389D9C6238EF84300EE3084 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0389D9C9238EF84300EE3084 /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = 0389D9C8238EF84300EE3084 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0389D9CB238EF84300EE3084 /* libjsi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsi.a;
+			remoteRef = 0389D9CA238EF84300EE3084 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0389D9CD238EF84300EE3084 /* libjsiexecutor.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsiexecutor.a;
+			remoteRef = 0389D9CC238EF84300EE3084 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0389D9CF238EF84300EE3084 /* libjsi-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsi-tvOS.a";
+			remoteRef = 0389D9CE238EF84300EE3084 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0389D9D1238EF84300EE3084 /* libjsiexecutor-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsiexecutor-tvOS.a";
+			remoteRef = 0389D9D0238EF84300EE3084 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXSourcesBuildPhase section */
+		0389D995238EF75500EE3084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0389D996238EF75500EE3084 /* RCTYouTubeStandalone.m in Sources */,
+				0389D997238EF75500EE3084 /* RCTYouTubeManager.m in Sources */,
+				0389D9D8238EFA9400EE3084 /* WKYTPlayerView.m in Sources */,
+				0389D998238EF75500EE3084 /* RCTYouTube.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BDB9BC51B4289AE00EF9FEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				53462DDF1F1FDBB6001DCD44 /* RCTYouTubeStandalone.m in Sources */,
 				8B26A91C1B428AA2000C2690 /* RCTYouTubeManager.m in Sources */,
-				8B26A9141B428A53000C2690 /* YTPlayerView.m in Sources */,
+				0389D9D7238EFA9400EE3084 /* WKYTPlayerView.m in Sources */,
 				8B26A91B1B428AA2000C2690 /* RCTYouTube.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +478,48 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0389D99C238EF75500EE3084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../ios/**",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**/**",
+					"$(SRCROOT)/../../ios/Pods/Headers/Public",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		0389D99D238EF75500EE3084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../ios/**",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**/**",
+					"$(SRCROOT)/../../ios/Pods/Headers/Public",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
 		8BDB9BDB1B4289AE00EF9FEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -289,6 +656,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0389D99B238EF75500EE3084 /* Build configuration list for PBXNativeTarget "RCTYouTubeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0389D99C238EF75500EE3084 /* Debug */,
+				0389D99D238EF75500EE3084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8BDB9BC41B4289AE00EF9FEF /* Build configuration list for PBXProject "RCTYouTube" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -1,7 +1,6 @@
 package com.inprogress.reactnativeyoutube;
 
-import android.support.annotation.Nullable;
-
+import javax.annotation.Nullable;
 import com.facebook.infer.annotation.Assertions;
 import com.facebook.react.common.MapBuilder;
 import com.facebook.react.bridge.ReactMethod;

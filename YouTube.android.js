@@ -64,7 +64,7 @@ export default class YouTube extends React.Component {
     };
   }
 
-  componentWillMount() {
+  componentDidMount() {
     BackHandler.addEventListener('hardwareBackPress', this._backPress);
 
     // Periodically triggeting a forced unnoticable layout rendering until onReady to make sure the
@@ -74,10 +74,10 @@ export default class YouTube extends React.Component {
     }, 250);
   }
 
-  componentWillReceiveProps(nextProps) {
+  componentDidUpdate(prevProps) {
     // Translate next `fullscreen` prop to state
-    if (nextProps.fullscreen !== this.props.fullscreen) {
-      this.setState({ fullscreen: nextProps.fullscreen });
+    if (prevProps.fullscreen !== this.props.fullscreen) {
+      this.setState({ fullscreen: this.props.fullscreen });
     }
   }
 

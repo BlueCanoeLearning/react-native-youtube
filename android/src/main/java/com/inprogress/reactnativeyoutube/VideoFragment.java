@@ -4,6 +4,7 @@ import com.google.android.youtube.player.YouTubePlayerFragment;
 
 
 public class VideoFragment extends YouTubePlayerFragment {
+    private YouTubeView mYouTubeView;
 
     public VideoFragment() {
     }

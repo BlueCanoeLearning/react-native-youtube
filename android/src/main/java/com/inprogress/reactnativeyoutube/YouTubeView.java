@@ -196,4 +196,8 @@ public class YouTubeView extends FrameLayout {
     public void setResumePlay(boolean bool) {
         mYouTubeController.setResumePlay(bool);
     }
+
+    public void setFullscreenAlways(boolean bool) {
+        mYouTubeController.setFullscreenAlways(bool);
+    }
 }

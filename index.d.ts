@@ -17,6 +17,7 @@ declare module "react-native-youtube" {
         showinfo?: boolean;             // (iOS) Setting the parameter's value to false causes the player to not display information like the video title and uploader before the video starts playing. Default: true.
         modestbranding?: boolean;       // (iOS) This parameter lets you use a YouTube player that does not show a YouTube logo. Default: false.
         style?: StyleProp<ViewStyle>;
+        fullscreenAlwaysAndroid?: boolean; 
 
         onError?: (error: any) => void,
         onReady?: (event: { target: number }) => void,

@@ -39,6 +39,7 @@ export default class YouTube extends React.Component {
     onChangeQuality: PropTypes.func,
     onChangeFullscreen: PropTypes.func,
     style: ViewPropTypes.style,
+    fullscreenAlwaysAndroid: PropTypes.bool
   };
 
   static defaultProps = {

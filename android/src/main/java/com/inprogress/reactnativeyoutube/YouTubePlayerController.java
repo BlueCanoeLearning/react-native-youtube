@@ -395,4 +395,12 @@ public class YouTubePlayerController implements
     public void setResumePlay(boolean resumePlay) {
         mResumePlay = resumePlay;
     }
+
+    public void setFullscreenAlways(boolean bool) {
+        if (true) {
+            mYouTubePlayer.setFullscreenControlFlags(YouTubePlayer.FULLSCREEN_FLAG_ALWAYS_FULLSCREEN_IN_LANDSCAPE |  YouTubePlayer.FULLSCREEN_FLAG_CONTROL_ORIENTATION);
+        } else {
+            mYouTubePlayer.setFullscreenControlFlags(YouTubePlayer.FULLSCREEN_FLAG_CONTROL_SYSTEM_UI |  YouTubePlayer.FULLSCREEN_FLAG_CONTROL_ORIENTATION);
+        }
+    }
 }

@@ -149,4 +149,9 @@ public class YouTubeManager extends SimpleViewManager<YouTubeView> {
     public void setPropResumePlay(YouTubeView view, @Nullable boolean param) {
         view.setResumePlay(param);
     }
+
+    @ReactProp(name = "fullscreenAlwaysAndroid")
+    public void setFullscreenAlways(YouTubeView view, @Nullable boolean param) {
+        view.setFullscreenAlways(param);
+    }
 }

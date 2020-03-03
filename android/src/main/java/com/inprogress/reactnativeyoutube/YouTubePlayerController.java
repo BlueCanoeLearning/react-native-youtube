@@ -39,6 +39,8 @@ public class YouTubePlayerController implements
     private boolean mPlay = false;
     private boolean mLoop = false;
     private boolean mFullscreen = false;
+    private boolean mFullscreenAlways = false;
+
     private int mControls = 1;
     private boolean mShowFullscreenButton = true;
     private boolean mResumePlay = true;
@@ -239,6 +241,12 @@ public class YouTubePlayerController implements
 
     private void updateFullscreen() {
         mYouTubePlayer.setFullscreen(mFullscreen);
+
+        if (mFullscreenAlways) {
+            mYouTubePlayer.setFullscreenControlFlags(YouTubePlayer.FULLSCREEN_FLAG_ALWAYS_FULLSCREEN_IN_LANDSCAPE |  YouTubePlayer.FULLSCREEN_FLAG_CONTROL_ORIENTATION);
+        } else {
+            mYouTubePlayer.setFullscreenControlFlags(YouTubePlayer.FULLSCREEN_FLAG_CONTROL_SYSTEM_UI |  YouTubePlayer.FULLSCREEN_FLAG_CONTROL_ORIENTATION);
+        }
     }
 
     private void updateShowFullscreenButton() {
@@ -396,11 +404,7 @@ public class YouTubePlayerController implements
         mResumePlay = resumePlay;
     }
 
-    public void setFullscreenAlways(boolean bool) {
-        if (true) {
-            mYouTubePlayer.setFullscreenControlFlags(YouTubePlayer.FULLSCREEN_FLAG_ALWAYS_FULLSCREEN_IN_LANDSCAPE |  YouTubePlayer.FULLSCREEN_FLAG_CONTROL_ORIENTATION);
-        } else {
-            mYouTubePlayer.setFullscreenControlFlags(YouTubePlayer.FULLSCREEN_FLAG_CONTROL_SYSTEM_UI |  YouTubePlayer.FULLSCREEN_FLAG_CONTROL_ORIENTATION);
-        }
+    public void setFullscreenAlways(boolean always) {
+        mFullscreenAlways = always;
     }
 }

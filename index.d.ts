@@ -27,5 +27,8 @@ declare module "react-native-youtube" {
     }
     export default class YouTube extends React.Component<YouTubeProps> {
 
+        public getDuration(): Promise<number>;
+        public getCurrentTime(): Promise<number>;
+        public seekTo(seconds: number): void;
     }
 }

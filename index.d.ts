@@ -18,6 +18,7 @@ declare module "react-native-youtube" {
         modestbranding?: boolean;       // (iOS) This parameter lets you use a YouTube player that does not show a YouTube logo. Default: false.
         style?: StyleProp<ViewStyle>;
         fullscreenAlwaysAndroid?: boolean; 
+        resumePlayAndroid?: boolean;
 
         onError?: (error: any) => void,
         onReady?: (event: { target: number }) => void,
